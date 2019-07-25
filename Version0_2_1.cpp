@@ -47,11 +47,6 @@ struct Node {
             }
             putchar('\n');
         }
-
-        /*
-        for (int i = 1; i < this->y; i++) cout << endl;
-        for (int i = 1; i < this->x; i++) cout << ' ';
-        cout << "(!)"; */
     }
 
     void forward(const int &c) {
